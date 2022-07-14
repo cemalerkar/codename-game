@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-left,
+.container-right {
+  height: 50vh;
+  width: 22vw;
+  padding: 30px;
+  border-radius: 30px;
+  border: 3px solid white;
+  background-image: url(img/patterns.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+.container-left {
+  background-color: red;
+  box-shadow: 10px 10px rgb(95, 0, 0);
+}
+.container-right {
+  background-color: blue;
+  box-shadow: -10px 10px rgb(0, 0, 95);
+}
+.codenames {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  font-size: 30px;
+}
+.word-add-button,
+.start-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.word-add-button > button,
+.start-game > button {
+  padding: 20px 30px;
+  font-size: 15px;
+  color: black;
+  background-color: orange;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 2px solid white;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.word-add-button > button:hover,
+.start-game > button:hover,
+.team-submit1 button:hover,
+.team-submit2 button:hover {
+  background-color: rgb(255, 123, 0);
+  color: rgb(0, 0, 0);
+}
+.team1,
+.team2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-name1,
+.team-name2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 3vh;
+}
+.team-name1 h2,
+.team-name2 h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+.team-text1,
+.team-text2 {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-text1 h3,
+.team-text2 h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+.team-text1 input,
+.team-text2 input {
+  background-color: orange;
+  border: 2px solid black;
+  padding: 5px 5px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+.team-submit1,
+.team-submit2 {
+  margin-top: 2vh;
+}
+.team-submit1 button,
+.team-submit2 button {
+  background-color: orange;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.team-submit1 button:disabled,
+.team-submit2 button:disabled,
+#team1-name:disabled,
+#team2-name:disabled {
+  background-color: rgb(164, 121, 0);
+  cursor: default;
+}
+.mobile {
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+.howtoplay {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  padding: 0 100px;
+  top: 0%;
+  left: 0;
+}
+.howtoplay-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 10px 10px rgb(158, 79, 0);
+}
+.paragraph1,
+.paragraph2 {
+  margin-top: 15px;
+}
+.goBack {
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px black;
+  cursor: pointer;
+}
+#ingame {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.gamearea {
+  display: grid;
+  color: white;
+  grid-template-columns: 160px 160px 160px 160px 160px;
+  grid-template-rows: 90px 90px 90px 90px 90px;
+  gap: 30px 30px;
+  position: fixed;
+  top: 100px;
+  left: 350px;
+  padding-left: 120px;
+}
+.gamearea-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+}
+.qrcodered img,
+.qrcodeblue img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+.box {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 5px 5px rgb(136, 88, 0);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.box:hover {
+  background-color: rgb(254, 198, 96);
+}
+#cardsleft-blue,
+#cardsleft-red {
+  display: flex;
+}
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9,
+#box10,
+#box11,
+#box12,
+#box13,
+#box14,
+#box15,
+#box16,
+#box17,
+#box18,
+#box19,
+#box20,
+#box21,
+#box22,
+#box23,
+#box24,
+#box25 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redteam,
+.blueteam {
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-image: url(img/patterns.png);
+}
+.redteam {
+  background-color: red;
+  box-shadow: 10px 10px rgb(95, 0, 0);
+  margin-bottom: 15px;
+}
+.blueteam {
+  background-color: blue;
+  margin-top: 15px;
+  box-shadow: 10px 10px rgb(0, 0, 95);
+}
+@media only screen and (max-width: 1396px) {
+  .gamearea {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 1296px) {
+  .gamearea {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1176px) {
+  .container {
+    display: none;
+  }
+  body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+  }
+  .mobile {
+    display: flex;
+    color: white;
+  }
+}

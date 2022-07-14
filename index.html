@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codename</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-left" id="container-left">
+            <div class="team1">
+                <div class="team-name1">
+                    <h2 id="red-team">Kırmızı Taraf</h2>
+                    <div class="team-text1">
+                        <h3 id="team-head1">Takım Adı Giriniz</h3>
+                        <input type="text" name="team1-name" id="team1-name">
+                    </div>
+                </div>
+                <div class="team-submit1">
+                    <button onclick="TeamOneSubmit()" id="TeamButton">Takım Adını Onayla</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-mid" id="container-mid">
+            <div class="codenames">
+                <h1>CODENAME</h1>
+            </div>
+            <div class="start-game">
+                <button onclick="StartGame()">Oyuna Başla</button>
+            </div>
+            <div class="word-add-button">
+                <button onclick="EnterNewWord();">Havuza Kelime Ekle</button>
+            </div>
+            <div class="start-game" onclick="HowToPlay()">
+                <button>Nasıl Oynanır?</button>
+            </div>
+        </div>
+        <div class="container-right" id="container-right">
+            <div class="team2">
+                <div class="team-name2">
+                    <h2 id="blue-team">Mavi Taraf</h2>
+                    <div class="team-text2">
+                        <h3 id="team-head2">Takım Adı Giriniz</h3>
+                        <input type="text" name="team2-name" id="team2-name">
+                    </div>
+                </div>
+                <div class="team-submit2">
+                    <button onclick="TeamTwoSubmit()" id="NameButton2">Takım Adını Onayla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ingame">
+        <div class="gamearea-left">
+            <div class="redteam">
+                <div class="ingame-red-team">
+                    <div class="team-name1">
+                        <h2 id="ingame-red-team">Kırmızı Taraf</h2>
+                        <div class="qrcodered" id="red-qr">
+                            <img src="img/qrsample.png" alt="Red Team QR">
+                        </div>
+                        <div id="cardsleft-red">
+                            <p>Kalan Kart:</p>
+                            <p id="redteam-remaining-cards">9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blueteam">
+                <div class="ingame-blue-team">
+                    <div class="team-name2">
+                        <h2 id="ingame-blue-team">Mavi Taraf</h2>
+                        <div class="qrcodeblue" id="blue-qr">
+                            <img src="img/qrsample.png" alt="Blue Team QR">
+                        </div>
+                        <div id="cardsleft-blue">
+                            <p>Kalan Kart:</p>
+                            <p id="blueteam-remaining-cards">8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gamearea">
+            <div class="box" id="box1" onclick="Box1()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box2" onclick="Box2()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box3" onclick="Box3()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box4" onclick="Box4()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box5" onclick="Box5()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box6" onclick="Box6()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box7" onclick="Box7()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box8" onclick="Box8()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box9" onclick="Box9()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box10" onclick="Box10()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box11" onclick="Box11()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box12" onclick="Box12()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box13" onclick="Box13()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box14" onclick="Box14()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box15" onclick="Box15()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box16" onclick="Box16()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box17" onclick="Box17()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box18" onclick="Box18()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box19" onclick="Box19()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box20" onclick="Box20()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box21" onclick="Box21()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box22" onclick="Box22()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box23" onclick="Box23()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box24" onclick="Box24()">
+                <p>Kelime</p>
+            </div>
+            <div class="box" id="box25" onclick="Box25()">
+                <p>Kelime</p>
+            </div>
+        </div>
+    </div>
+    <div class="howtoplay" id="howtoplay">
+        <div class="howtoplay-container">
+            <h2>Codename Oyunu Nasıl Oynanır?</h2>
+            <div class="paragraph1">
+                <p>Oyuna kabaca beyin fırtınası oyunu diyebiliriz. Oyunda 2 adet takım bulunmakta, Kırmızı ve Mavi
+                    takım. Lobide takımınıza isim verip oyunu başlattığımızda karşımıza her
+                    takımın anlatması gereken kart sayısını gösteren takıma özel QR kodlu bölge ve sağında kelime havuzu
+                    bulunuyor. </p>
+            </div>
+            <div class="paragraph2">
+                Her takım bir adet anlatıcı seçerek işe koyulur, anlatıcılar seçildikten sonra kendi takımlarının QR
+                kodlarını telefondan okutup telefon üzerinden anlatması gereken kelimelere bakmalıdır. Anlatıcının
+                anlatması gereken kelimeler kendi takımının rengiyle özdeşleşen kutulardır. QR kodundaki her kutucuk
+                oyundaki kutucukları simgeler. Anlatıcılar kendi takımlarının kelimelerine baktıktan sonra oyuna
+                başlayabilirler. Oyuna her zaman kırmızı takım başlar, kırmızı takım oyuna başlamak için anlatıcısı
+                takımına bir kelime verir ve bu kelimeden yola çıkarak bulmaları gereken kelime sayısını sesli olarak
+                verir. Örneğin kırmızı takım anlatıcısının telefondan baktığı 2 kutucuktaki kelimeler Fransa ve Almanya
+                olsun. (Kelimeler rastgele gelen kelimeler değil QR koddaki şekille oyunun ana bölgesindeki şekilin üst
+                üste oturmasıyla gelen kelimelerdir.) Kırmızı anlatıcı takımına Fransa ve Almanya kelimelerini seçtirmek
+                için "Ülke kelimesi 2" şeklinde söyler. Kırmızı takımdaki anlatıcı dışındaki diğer oyuncular ülke
+                kelimesi üzerine beyin fırtınası yapar ve oyun kartlarından en uygun olan kartları seçmeye çalışırlar.
+                Anlatıcının verdiği 2 rakamı ise oyuncuların maksimum tıklaması gereken rakamı belirtir. Eğer kırmızı
+                takım 2 kartı da doğru açarsa sıra karşı takıma geçer. Anlatıcı dışındaki oyuncular kendi takımının
+                değil de beyaz veya karşı takımın renginde bir kart açarsa sıra karşı takıma geçer ve diğer takımın
+                anlatıcısı takımına kelime ve rakam verir. Oyuncular siyah kartı
+                açtıkları halde ise oyun biter karşı takım kazanır bu yüzden anlatıcılar kelimeleri anlatırken siyah
+                kelimeyi açtırmamaya dikkat etmelidir. Amaç rakipten önce tüm kartları bitirmektir.
+            </div>
+            <div>
+                <button onclick=" toMainMenu() " class="goBack">Geri Dönmek için Tıkla</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile">
+        <h1>Üzgünüz!</h1>
+        <h1>Bu oyun yalnızca genişliği 1176 pixelden büyük ekranlarda oynanabilir.</h1>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
