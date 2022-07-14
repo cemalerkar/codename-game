@@ -141,6 +141,9 @@ function StartGame() {
   let InGameRedTeam = document.getElementById("ingame-red-team");
   let InGameBlueTeam = document.getElementById("ingame-blue-team");
   let InGame = document.getElementById("ingame");
+  let qrRed = document.getElementById("qr-red");
+  let qrBlue = document.getElementById("qr-blue");
+
   if (TeamOneName == "" || TeamTwoName == "") {
     alert("Lütfen takım isimlerini giriniz.");
   } else {
@@ -164,7 +167,6 @@ function StartGame() {
       i += 1;
     }
     var cardId = Math.floor(Math.random() * 4);
-    console.log(cardId);
 
     if (cardId == "0") {
       cardColors.push(
@@ -194,6 +196,8 @@ function StartGame() {
         "24kırmızı",
         "25kırmızı"
       );
+      qrBlue.src = "img/0.png";
+      qrRed.src = "img/0.png";
     } else if (cardId == "1") {
       cardColors.push(
         "1kırmızı",
@@ -222,6 +226,8 @@ function StartGame() {
         "24mavi",
         "25mavi"
       );
+      qrBlue.src = "img/1.png";
+      qrRed.src = "img/1.png";
     } else if (cardId == "2") {
       cardColors.push(
         "1mavi",
@@ -250,6 +256,8 @@ function StartGame() {
         "24mavi",
         "25mavi"
       );
+      qrBlue.src = "img/2.png";
+      qrRed.src = "img/2.png";
     } else if (cardId == "3") {
       cardColors.push(
         "1mavi",
@@ -278,6 +286,8 @@ function StartGame() {
         "24beyaz",
         "25kırmızı"
       );
+      qrBlue.src = "img/3.png";
+      qrRed.src = "img/3.png";
     }
   }
 }
