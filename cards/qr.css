@@ -1,1 +1,25 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+}
+div {
+  background-color: gray;
+  box-shadow: 10px 10px rgb(60, 60, 60);
+  border-radius: 40px;
+}
+img {
+  height: 70vh;
+}
+@media only screen and (max-width: 960px) {
+  img {
+    height: auto;
+    width: 90vw;
+  }
+}
