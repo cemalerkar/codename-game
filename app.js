@@ -320,10 +320,10 @@ function Box1() {
   box.onclick = "";
   if (renk === "1beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "1kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -333,7 +333,7 @@ function Box1() {
     }
   } else if (renk === "1mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -356,10 +356,10 @@ function Box2() {
   box.onclick = "";
   if (renk === "2beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "2kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -369,7 +369,7 @@ function Box2() {
     }
   } else if (renk === "2mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -392,10 +392,10 @@ function Box3() {
   box.onclick = "";
   if (renk === "3beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "3kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -405,7 +405,7 @@ function Box3() {
     }
   } else if (renk === "3mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -428,10 +428,10 @@ function Box4() {
   box.onclick = "";
   if (renk === "4beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "4kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -441,7 +441,7 @@ function Box4() {
     }
   } else if (renk === "4mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -464,10 +464,10 @@ function Box5() {
   box.onclick = "";
   if (renk === "5beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "5kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -477,7 +477,7 @@ function Box5() {
     }
   } else if (renk === "5mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -500,10 +500,10 @@ function Box6() {
   box.onclick = "";
   if (renk === "6beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "6kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -513,7 +513,7 @@ function Box6() {
     }
   } else if (renk === "6mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -536,10 +536,10 @@ function Box7() {
   box.onclick = "";
   if (renk === "7beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "7kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -549,7 +549,7 @@ function Box7() {
     }
   } else if (renk === "7mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -572,10 +572,10 @@ function Box8() {
   box.onclick = "";
   if (renk === "8beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "8kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -585,7 +585,7 @@ function Box8() {
     }
   } else if (renk === "8mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -608,10 +608,10 @@ function Box9() {
   box.onclick = "";
   if (renk === "9beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "9kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -621,7 +621,7 @@ function Box9() {
     }
   } else if (renk === "9mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -644,10 +644,10 @@ function Box10() {
   box.onclick = "";
   if (renk === "10beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "10kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -657,7 +657,7 @@ function Box10() {
     }
   } else if (renk === "10mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -680,10 +680,10 @@ function Box11() {
   box.onclick = "";
   if (renk === "11beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "11kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -693,7 +693,7 @@ function Box11() {
     }
   } else if (renk === "11mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -716,10 +716,10 @@ function Box12() {
   box.onclick = "";
   if (renk === "12beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "12kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -729,7 +729,7 @@ function Box12() {
     }
   } else if (renk === "12mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -752,10 +752,10 @@ function Box13() {
   box.onclick = "";
   if (renk === "13beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "13kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -765,7 +765,7 @@ function Box13() {
     }
   } else if (renk === "13mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -788,10 +788,10 @@ function Box14() {
   box.onclick = "";
   if (renk === "14beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "14kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -801,7 +801,7 @@ function Box14() {
     }
   } else if (renk === "14mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -824,10 +824,10 @@ function Box15() {
   box.onclick = "";
   if (renk === "15beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "15kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -837,7 +837,7 @@ function Box15() {
     }
   } else if (renk === "15mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -860,10 +860,10 @@ function Box16() {
   box.onclick = "";
   if (renk === "16beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "16kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -873,7 +873,7 @@ function Box16() {
     }
   } else if (renk === "16mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -896,10 +896,10 @@ function Box17() {
   box.onclick = "";
   if (renk === "17beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "17kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -909,7 +909,7 @@ function Box17() {
     }
   } else if (renk === "17mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -932,10 +932,10 @@ function Box18() {
   box.onclick = "";
   if (renk === "18beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "18kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -945,7 +945,7 @@ function Box18() {
     }
   } else if (renk === "18mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -968,10 +968,10 @@ function Box19() {
   box.onclick = "";
   if (renk === "19beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "19kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -981,7 +981,7 @@ function Box19() {
     }
   } else if (renk === "19mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -1004,10 +1004,10 @@ function Box20() {
   box.onclick = "";
   if (renk === "20beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "20kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -1017,7 +1017,7 @@ function Box20() {
     }
   } else if (renk === "20mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -1040,10 +1040,10 @@ function Box21() {
   box.onclick = "";
   if (renk === "21beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "21kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -1053,7 +1053,7 @@ function Box21() {
     }
   } else if (renk === "21mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -1076,10 +1076,10 @@ function Box22() {
   box.onclick = "";
   if (renk === "22beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "22kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -1089,7 +1089,7 @@ function Box22() {
     }
   } else if (renk === "22mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -1112,10 +1112,10 @@ function Box23() {
   box.onclick = "";
   if (renk === "23beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "23kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -1125,7 +1125,7 @@ function Box23() {
     }
   } else if (renk === "23mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -1148,10 +1148,10 @@ function Box24() {
   box.onclick = "";
   if (renk === "24beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "24kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -1161,7 +1161,7 @@ function Box24() {
     }
   } else if (renk === "24mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {
@@ -1184,10 +1184,10 @@ function Box25() {
   box.onclick = "";
   if (renk === "25beyaz") {
     box.style.backgroundColor = "rgb(255, 214, 163)";
-    box.style.boxShadow = "4px 4px bisque";
+    box.style.boxShadow = "0px 0px 20px 1px bisque";
   } else if (renk === "25kırmızı") {
     box.style.backgroundColor = "red";
-    box.style.boxShadow = "4px 4px rgb(96, 0, 0)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(96, 0, 0)";
     redRem === redRem--;
     redTeamRemaining.innerText = redRem;
     if (redRem == "0") {
@@ -1197,7 +1197,7 @@ function Box25() {
     }
   } else if (renk === "25mavi") {
     box.style.backgroundColor = "blue";
-    box.style.boxShadow = "4px 4px rgb(0, 0, 96)";
+    box.style.boxShadow = "0px 0px 20px 1px rgb(0, 0, 96)";
     blueRem === blueRem--;
     blueTeamRemaining.innerText = blueRem;
     if (blueRem == "0") {

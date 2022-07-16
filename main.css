@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(img/background.jpg);
-  background-position: center;
+  background-image: url(img/background.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   font-family: "Poppins", sans-serif;
 }
@@ -24,27 +25,31 @@ body {
   width: 22vw;
   padding: 30px;
   border-radius: 30px;
-  border: 3px solid white;
-  background-image: url(img/patterns.png);
+  box-shadow: 0px 0px 40px 5px rgb(155, 155, 155);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Roboto", sans-serif;
 }
 .container-left {
-  background-color: red;
-  box-shadow: 10px 10px rgb(95, 0, 0);
+  background-color: rgb(254, 254, 254);
 }
 .container-right {
-  background-color: blue;
-  box-shadow: -10px 10px rgb(0, 0, 95);
+  background-color: rgb(254, 254, 254);
 }
 .codenames {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: orange;
+  color: rgb(50, 65, 88);
   font-size: 30px;
+}
+.codenames a {
+  margin-top: -27px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(52, 104, 176);
 }
 .word-add-button,
 .start-game {
@@ -57,11 +62,12 @@ body {
 .start-game > button {
   padding: 20px 30px;
   font-size: 15px;
-  color: black;
-  background-color: orange;
+  color: rgb(50, 65, 88);
+  background-color: rgb(254, 254, 254);
   border-radius: 100px;
   cursor: pointer;
   border: 2px solid white;
+  box-shadow: 0px 0px 10px 3px rgb(155, 155, 155);
   margin-top: 20px;
   transition: 0.3s;
 }
@@ -69,8 +75,7 @@ body {
 .start-game > button:hover,
 .team-submit1 button:hover,
 .team-submit2 button:hover {
-  background-color: rgb(255, 123, 0);
-  color: rgb(0, 0, 0);
+  background-color: rgb(221, 221, 221);
 }
 .team1,
 .team2 {
@@ -85,14 +90,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(50, 65, 88);
   margin-top: 3vh;
 }
 .team-name1 h2,
 .team-name2 h2 {
   font-size: 25px;
   font-weight: 500;
-  color: black;
+  color: rgb(50, 65, 88);
 }
 .team-text1,
 .team-text2 {
@@ -106,11 +111,11 @@ body {
 .team-text2 h3 {
   font-size: 15px;
   font-weight: 500;
-  color: black;
+  color: rgb(50, 65, 88);
 }
 .team-text1 input,
 .team-text2 input {
-  background-color: orange;
+  background-color: rgb(230, 230, 230);
   border: 2px solid black;
   padding: 5px 5px;
   border-radius: 20px;
@@ -122,7 +127,7 @@ body {
 }
 .team-submit1 button,
 .team-submit2 button {
-  background-color: orange;
+  background-color: rgb(229, 229, 229);
   color: black;
   padding: 10px 20px;
   border: 2px solid black;
@@ -135,7 +140,7 @@ body {
 .team-submit2 button:disabled,
 #team1-name:disabled,
 #team2-name:disabled {
-  background-color: rgb(164, 121, 0);
+  background-color: rgb(199, 208, 222);
   cursor: default;
 }
 .mobile {
@@ -159,16 +164,17 @@ body {
   padding: 0 100px;
   top: 0%;
   left: 0;
+  color: rgb(50, 65, 88);
 }
 .howtoplay-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: orange;
+  background-color: rgb(254, 254, 254);
   padding: 30px;
   border-radius: 30px;
-  box-shadow: 10px 10px rgb(158, 79, 0);
+  box-shadow: 0px 0px 30px 3px rgb(121, 121, 121);
 }
 .paragraph1,
 .paragraph2 {
@@ -176,12 +182,17 @@ body {
 }
 .goBack {
   margin-top: 20px;
-  background-color: white;
-  border: 2px solid black;
+  background-color: rgb(247, 247, 247);
+  border: 2px solid rgb(50, 65, 88);
+  color: rgb(36, 36, 52);
   padding: 5px 10px;
   border-radius: 20px;
-  box-shadow: 4px 4px black;
+  box-shadow: 0px 0px 20px 1px rgb(121, 121, 121);
   cursor: pointer;
+  transition: 0.3s;
+}
+.goBack:hover {
+  background-color: rgb(205, 205, 205);
 }
 #ingame {
   position: fixed;
@@ -193,9 +204,15 @@ body {
   justify-content: space-around;
   margin-top: 50px;
 }
+#ingame-blue-team,
+#ingame-red-team,
+#cardsleft-blue,
+#cardsleft-red {
+  color: rgb(221, 221, 221);
+}
 .gamearea {
   display: grid;
-  color: white;
+  color: rgb(50, 65, 88);
   grid-template-columns: 160px 160px 160px 160px 160px;
   grid-template-rows: 90px 90px 90px 90px 90px;
   gap: 30px 30px;
@@ -222,16 +239,16 @@ body {
   border-radius: 5px;
 }
 .box {
-  background-color: orange;
+  background-color: rgb(254, 254, 254);
   padding: 20px;
   border-radius: 20px;
   border: 2px solid white;
-  box-shadow: 5px 5px rgb(136, 88, 0);
+  box-shadow: 0px 0px 20px 1px rgb(146, 146, 146);
   cursor: pointer;
   transition: 0.3s;
 }
 .box:hover {
-  background-color: rgb(254, 198, 96);
+  background-color: rgb(227, 227, 227);
 }
 #cardsleft-blue,
 #cardsleft-red {
@@ -272,18 +289,17 @@ body {
   height: 250px;
   width: 250px;
   border-radius: 30px;
-  border: 2px solid white;
-  background-image: url(img/patterns.png);
+  border: 2px solid rgb(191, 191, 191);
 }
 .redteam {
   background-color: red;
-  box-shadow: 10px 10px rgb(95, 0, 0);
+  box-shadow: 0px 0px 30px 1px rgb(95, 0, 0);
   margin-bottom: 15px;
 }
 .blueteam {
   background-color: blue;
   margin-top: 15px;
-  box-shadow: 10px 10px rgb(0, 0, 95);
+  box-shadow: 0px 0px 30px 1px rgb(0, 0, 95);
 }
 @media only screen and (max-width: 1396px) {
   .gamearea {
@@ -295,18 +311,12 @@ body {
     padding-left: 0px;
   }
 }
-@media only screen and (max-width: 1176px) {
+@media only screen and (max-width: 1275px) {
   .container {
     display: none;
   }
-  body {
-    background-image: url(img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: black;
-  }
   .mobile {
     display: flex;
-    color: white;
+    color: rgb(55, 55, 55);
   }
 }
